@@ -14,6 +14,9 @@
         android:theme="@style/Theme.ITESMTC2007B01"
         tools:targetApi="31">
         <activity
+            android:name=".ChildActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
